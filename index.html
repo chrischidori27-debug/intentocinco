@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitoreo de Ubicación - Bolivia</title>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css" rel="stylesheet" />
+
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div id="mapContainer">
+    <div id="map"></div>
+</div>
+
+<div id="tableContainer">
+    <h3>Historial de Ubicaciones</h3>
+    <table id="locationTable">
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Latitud</th>
+                <th>Longitud</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+</div>
+
+<script src="index.js">
+    
+</script>
+
+</body>
+</html>
